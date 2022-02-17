@@ -1,6 +1,9 @@
+
+// pages/[uid].js
 import Head from 'next/head'
 import SliceZone from 'next-slicezone'
 import { Client } from '../utils/prismicHelpers'
+import Prismic from '@prismicio/client'
 
 import React from 'react'
 import { useRouter } from 'next/router'
@@ -16,13 +19,12 @@ import useUpdatePreviewRef from '../utils/useUpdatePreviewRef'
 import * as Slices from '../slices'
 const resolver = ({ sliceName }) => Slices[sliceName];
 
-export default function Home({ id, previewRef, slices }) {
-  
+export default function Page({ id, previewRef, slices }) {
   const router = useRouter()
   if (router.isFallback) {
     return <Loader />
   }
-
+  
   if (!id) {
     return <Custom404 />
   }
@@ -39,12 +41,11 @@ export default function Home({ id, previewRef, slices }) {
   )
 }
 
-export async function getStaticProps(context) {
-  const previewRef = context.previewData ? context.previewData.ref : null
+export async function getStaticProps({params, previewData }) {
+  const previewRef = previewData ? previewData.ref : null
   const refOption = previewRef ? { ref: previewRef } : null
 
-  const document = await Client().getSingle('home-page', refOption)
-  
+  const document = await Client().getByUID('page',params.uid, refOption)
   if(!document){
     return{
       notFound :true
@@ -52,9 +53,18 @@ export async function getStaticProps(context) {
   }
   return {
     props: {
-      id : document.id,
       previewRef,
+      id : document.id,
       slices : document.data.slices || [],
     },
+  }
+}
+
+export async function getStaticPaths() {
+  const documents = await Client().query(Prismic.Predicates.at('document.type', 'page'))
+
+  return {
+    paths: documents.results.map(doc => `/${doc.uid}`),
+    fallback: true,
   }
 }

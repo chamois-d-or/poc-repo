@@ -1,0 +1,88 @@
+{
+  "slices": {
+    "components": {
+      "hero_banner": {
+        "library": "slices",
+        "id": "hero_banner",
+        "name": "HeroBanner",
+        "description": "HeroBanner",
+        "model": {
+          "id": "hero_banner",
+          "type": "SharedSlice",
+          "name": "HeroBanner",
+          "description": "HeroBanner",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroBanner",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,hyperlink"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "hero_banner",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Enable revolutionary infrastructures",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim ut officia aute. Minim voluptate sit commodo in mollit esse minim et aliquip ullamco aute.",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Elit amet duis duis occaecat occaecat do nulla tempor ullamco nulla sit fugiat.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/default-slice/preview.png",
+            "width": 800,
+            "height": 121
+          }
+        }
+      }
+    }
+  }
+}

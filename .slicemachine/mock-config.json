@@ -1,0 +1,42 @@
+{
+  "slices": {
+    "HeroBanner": {
+      "0": {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "hero_banner",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Syndicate global communities",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Dolor ex excepteur nostrud ad officia amet nulla sint qui nostrud.",
+              "spans": []
+            }
+          ]
+        }
+      },
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "home-page": {},
+    "page": {}
+  }
+}
