@@ -1,30 +1,39 @@
 import React from 'react'
-import { RichText } from 'prismic-reactjs'
+import { Link } from 'prismic-reactjs'
 
 const HeroBanner = ({ slice }) => (
   <section>
-    <span className="title">
-      {
-        slice.primary.title ?
-        <RichText render={slice.primary.title}/>
-        : <h2>Template slice, update me!</h2>
-      }
-    </span>
-    {
-      slice.primary.description ?
-      <RichText render={slice.primary.description}/>
-      : <p>start by editing this slice from inside Prismic builder!</p>
-    }
-    <style jsx>{`
-        section {
-          max-width: 600px;
-          margin: 4em auto;
-          text-align: center;
+    <div className="relative bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
+      <div className="absolute inset-0 overflow-hidden">
+        <picture>
+        {slice.primary.image.mobile
+          ? <source srcSet={slice.primary.image.mobile.url} media="(max-width: 640px)"/>
+          : <div/>
         }
-        .title {
-          color: #8592e0;
+          <img
+            src={slice.primary.image.url}
+            alt={slice.primary.image.alt}
+            className="w-full h-full object-center object-cover"
+          />
+        </picture>
+      </div>
+      <div aria-hidden="true" className="absolute inset-0 bg-gray-900 bg-opacity-50" />
+      <div className="relative max-w-3xl mx-auto flex flex-col items-center text-center">
+        <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">{ slice.primary.title }</h2>
+        <p className="mt-3 text-xl text-white">
+            { slice.primary.description }
+        </p>
+        {
+        slice.variation === "default-slice" &&
+        <a
+          href={Link.url(slice.primary.CTALink)}
+          className="mt-8 w-full block bg-white border border-transparent rounded-md py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
+        >
+          { slice.primary.cta }
+        </a>
         }
-    `}</style>
+      </div>
+    </div>
   </section>
 )
 

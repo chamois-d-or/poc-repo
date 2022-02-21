@@ -1,6 +1,468 @@
 {
   "slices": {
     "components": {
+      "category_preview_with_image_backgrounds": {
+        "library": "slices",
+        "id": "category_preview_with_image_backgrounds",
+        "name": "CategoryPreviewWithImageBackgrounds",
+        "description": "CategoryPreviewWithImageBackgrounds",
+        "model": {
+          "id": "category_preview_with_image_backgrounds",
+          "type": "SharedSlice",
+          "name": "CategoryPreviewWithImageBackgrounds",
+          "description": "CategoryPreviewWithImageBackgrounds",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CategoryPreviewWithImageBackgrounds",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": "See more..."
+                  },
+                  "type": "Text"
+                },
+                "link": {
+                  "config": {
+                    "label": "Link",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                },
+                "imageLeft": {
+                  "config": {
+                    "label": "Left Image",
+                    "constraint": {
+                      "width": 592,
+                      "height": 592
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "mobile",
+                        "width": 560,
+                        "height": 280
+                      }
+                    ]
+                  },
+                  "type": "Image"
+                },
+                "imageLeftTitle": {
+                  "config": {
+                    "label": "Left Image Title",
+                    "placeholder": "My first Category..."
+                  },
+                  "type": "Text"
+                },
+                "imageLeftCta": {
+                  "config": {
+                    "label": "Left Image CTA",
+                    "placeholder": "My first category description..."
+                  },
+                  "type": "Text"
+                },
+                "leftImageLink": {
+                  "config": {
+                    "label": "Left Image Linked Document",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                },
+                "imageTopRight": {
+                  "config": {
+                    "label": "Top Right Image",
+                    "constraint": {
+                      "width": 592,
+                      "height": 280
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "imageTopRightTitle": {
+                  "config": {
+                    "label": "Top Right Image Title",
+                    "placeholder": "My second category..."
+                  },
+                  "type": "Text"
+                },
+                "imageTopRightCta": {
+                  "config": {
+                    "label": "Top Right Image CTA",
+                    "placeholder": "My second category description..."
+                  },
+                  "type": "Text"
+                },
+                "topRightImageLink": {
+                  "config": {
+                    "label": "Top Right Image Linked Document",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                },
+                "imageBottomRight": {
+                  "config": {
+                    "label": "Bottom Right Image",
+                    "constraint": {
+                      "width": 592,
+                      "height": 280
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "imageBottomRightTitle": {
+                  "config": {
+                    "label": "Bottom Right Image Title",
+                    "placeholder": "My third category..."
+                  },
+                  "type": "Text"
+                },
+                "imageBottomRightCta": {
+                  "config": {
+                    "label": "Bottom Right Image CTA",
+                    "placeholder": "My third category description..."
+                  },
+                  "type": "Text"
+                },
+                "bottomRightImageLink": {
+                  "config": {
+                    "label": "Bottom Right Image Linked Document",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "category_preview_with_image_backgrounds",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Seize front-end niches",
+                  "spans": []
+                }
+              ],
+              "linkLabel": "visualize customized schemas",
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "imageLeft": {
+                "dimensions": {
+                  "width": 592,
+                  "height": 592
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=592&h=592&fit=crop",
+                "mobile": {
+                  "dimensions": {
+                    "width": 560,
+                    "height": 280
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=560&h=280&fit=crop"
+                }
+              },
+              "imageLeftTitle": "brand integrated deliverables",
+              "imageLeftCta": "morph bricks-and-clicks platforms",
+              "leftImageLink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "imageTopRight": {
+                "dimensions": {
+                  "width": 592,
+                  "height": 280
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=592&h=280&fit=crop"
+              },
+              "imageTopRightTitle": "implement end-to-end users",
+              "imageTopRightCta": "disintermediate B2C architectures",
+              "topRightImageLink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "imageBottomRight": {
+                "dimensions": {
+                  "width": 592,
+                  "height": 280
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=592&h=280&fit=crop"
+              },
+              "imageBottomRightTitle": "recontextualize compelling niches",
+              "imageBottomRightCta": "engineer customized web-readiness",
+              "bottomRightImageLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/CategoryPreviewWithImageBackgrounds/default-slice/preview.png",
+            "width": 800,
+            "height": 612
+          }
+        }
+      },
+      "category_preview_with_scrolling_cards": {
+        "library": "slices",
+        "id": "category_preview_with_scrolling_cards",
+        "name": "CategoryPreviewWithScrollingCards",
+        "description": "CategoryPreviewWithScrollingCards",
+        "model": {
+          "id": "category_preview_with_scrolling_cards",
+          "type": "SharedSlice",
+          "name": "CategoryPreviewWithScrollingCards",
+          "description": "CategoryPreviewWithScrollingCards",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CategoryPreviewWithScrollingCards",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "CTA": {
+                  "config": {
+                    "label": "CTA",
+                    "placeholder": "See more..."
+                  },
+                  "type": "Text"
+                },
+                "CTALink": {
+                  "config": {
+                    "label": "CTALink",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 224,
+                      "height": 320
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "title": {
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Title of the card..."
+                  },
+                  "type": "Text"
+                },
+                "link": {
+                  "config": {
+                    "label": "Link",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "category_preview_with_scrolling_cards",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 224,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=224&h=320&fit=crop"
+                },
+                "title": "reintermediate intuitive action-items",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 224,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=224&h=320&fit=crop"
+                },
+                "title": "cultivate efficient users",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 224,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=224&h=320&fit=crop"
+                },
+                "title": "reintermediate web-enabled relationships",
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 224,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=224&h=320&fit=crop"
+                },
+                "title": "leverage cross-platform deliverables",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 224,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=224&h=320&fit=crop"
+                },
+                "title": "harness virtual portals",
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 224,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=224&h=320&fit=crop"
+                },
+                "title": "exploit efficient systems",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 224,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=224&h=320&fit=crop"
+                },
+                "title": "e-enable extensible e-business",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "E-enable web-enabled communities",
+                  "spans": []
+                }
+              ],
+              "CTA": "e-enable proactive applications",
+              "CTALink": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/CategoryPreviewWithScrollingCards/default-slice/preview.png",
+            "width": 800,
+            "height": 560
+          }
+        }
+      },
       "hero_banner": {
         "library": "slices",
         "id": "hero_banner",
@@ -20,21 +482,91 @@
               "description": "HeroBanner",
               "primary": {
                 "title": {
-                  "type": "StructuredText",
                   "config": {
-                    "single": "heading1",
                     "label": "Title",
-                    "placeholder": "This is where it all begins..."
-                  }
+                    "placeholder": "This is your title..."
+                  },
+                  "type": "Text"
                 },
                 "description": {
                   "config": {
                     "label": "Description",
-                    "placeholder": "A nice description",
-                    "allowTargetBlank": true,
-                    "multi": "paragraph,strong,hyperlink"
+                    "placeholder": "This will appear below the title..."
                   },
-                  "type": "StructuredText"
+                  "type": "Text"
+                },
+                "image": {
+                  "config": {
+                    "label": "Banner Image",
+                    "constraint": {
+                      "width": 1024,
+                      "height": 325
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "mobile",
+                        "width": 600,
+                        "height": 410
+                      }
+                    ]
+                  },
+                  "type": "Image"
+                },
+                "cta": {
+                  "config": {
+                    "label": "CTA Label",
+                    "placeholder": "This is the label of the button..."
+                  },
+                  "type": "Text"
+                },
+                "CTALink": {
+                  "config": {
+                    "label": "Linked page",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "withoutCta",
+              "name": "Without CTA",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroBanner",
+              "primary": {
+                "title": {
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is your title..."
+                  },
+                  "type": "Text"
+                },
+                "description": {
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "This will appear below the title..."
+                  },
+                  "type": "Text"
+                },
+                "image": {
+                  "config": {
+                    "label": "Banner Image",
+                    "constraint": {
+                      "width": 1024,
+                      "height": 325
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "mobile",
+                        "width": 600,
+                        "height": 410
+                      }
+                    ]
+                  },
+                  "type": "Image"
                 }
               },
               "items": {}
@@ -48,22 +580,362 @@
             "slice_type": "hero_banner",
             "items": [],
             "primary": {
+              "title": "revolutionize killer web-readiness",
+              "description": "cultivate B2B technologies",
+              "image": {
+                "dimensions": {
+                  "width": 1024,
+                  "height": 325
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1024&h=325&fit=crop",
+                "mobile": {
+                  "dimensions": {
+                    "width": 600,
+                    "height": 410
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&h=410&fit=crop"
+                }
+              },
+              "cta": "embrace plug-and-play architectures",
+              "CTALink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          },
+          "withoutCta": {
+            "variation": "withoutCta",
+            "name": "Without CTA",
+            "slice_type": "hero_banner",
+            "items": [],
+            "primary": {
+              "title": "generate back-end relationships",
+              "description": "morph extensible deliverables",
+              "image": {
+                "dimensions": {
+                  "width": 1024,
+                  "height": 325
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=1024&h=325&fit=crop",
+                "mobile": {
+                  "dimensions": {
+                    "width": 600,
+                    "height": 410
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=600&h=410&fit=crop"
+                }
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/default-slice/preview.png",
+            "width": 800,
+            "height": 482
+          },
+          "withoutCta": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/withoutCta/preview.png",
+            "width": 800,
+            "height": 400
+          }
+        }
+      },
+      "product_features_with_wide_images": {
+        "library": "slices",
+        "id": "product_features_with_wide_images",
+        "name": "ProductFeaturesWithWideImages",
+        "description": "ProductFeaturesWithWideImages",
+        "model": {
+          "id": "product_features_with_wide_images",
+          "type": "SharedSlice",
+          "name": "ProductFeaturesWithWideImages",
+          "description": "ProductFeaturesWithWideImages",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ProductFeaturesWithWideImages",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Top Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "config": {
+                    "label": "Main Title",
+                    "placeholder": "This is main title...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "subtitle": {
+                  "config": {
+                    "label": "Lower title",
+                    "placeholder": "This is a light description...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {
+                "image": {
+                  "config": {
+                    "label": "Feature image",
+                    "constraint": {
+                      "width": 800,
+                      "height": 320
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "mobile",
+                        "width": 352,
+                        "height": 141
+                      }
+                    ]
+                  },
+                  "type": "Image"
+                },
+                "title": {
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is the title of the feature...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "description": {
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "Description of the feature...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "product_features_with_wide_images",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 800,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=800&h=320&fit=crop",
+                  "mobile": {
+                    "dimensions": {
+                      "width": 352,
+                      "height": 141
+                    },
+                    "alt": "Placeholder image",
+                    "copyright": null,
+                    "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=352&h=141&fit=crop"
+                  }
+                },
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Exercitation quis elit dolore commodo duis do amet enim nostrud consequat.",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Duis ipsum dolore enim cillum id ea ullamco ad sint dolor eiusmod culpa culpa.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 800,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=800&h=320&fit=crop",
+                  "mobile": {
+                    "dimensions": {
+                      "width": 352,
+                      "height": 141
+                    },
+                    "alt": "Placeholder image",
+                    "copyright": null,
+                    "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=352&h=141&fit=crop"
+                  }
+                },
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aute exercitation dolore sunt eiusmod pariatur occaecat sit ut esse irure.",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Excepteur est ut nostrud tempor veniam et Lorem ut labore id ipsum. Minim exercitation cupidatat eiusmod qui magna voluptate labore duis esse ipsum culpa.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 800,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=800&h=320&fit=crop",
+                  "mobile": {
+                    "dimensions": {
+                      "width": 352,
+                      "height": 141
+                    },
+                    "alt": "Placeholder image",
+                    "copyright": null,
+                    "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=352&h=141&fit=crop"
+                  }
+                },
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Non minim minim sint labore dolore tempor quis ad anim voluptate. Elit excepteur et exercitation cillum deserunt aute officia minim duis quis mollit anim do magna. Elit velit velit tempor est commodo cillum qui culpa eiusmod culpa magna nulla.",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliqua laborum id commodo eu amet incididunt. Enim et nostrud veniam est reprehenderit. Et tempor eiusmod et id aliquip fugiat mollit tempor qui proident laboris.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 800,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=800&h=320&fit=crop",
+                  "mobile": {
+                    "dimensions": {
+                      "width": 352,
+                      "height": 141
+                    },
+                    "alt": "Placeholder image",
+                    "copyright": null,
+                    "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=352&h=141&fit=crop"
+                  }
+                },
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "In laboris adipisicing id nostrud id aute eiusmod id ex commodo nisi. Excepteur labore officia excepteur voluptate velit adipisicing commodo reprehenderit veniam veniam pariatur eu do cupidatat. Anim Lorem laboris sunt est dolor fugiat sunt enim in cillum occaecat Lorem.",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nulla proident ad ipsum excepteur est laborum ex laborum enim ea reprehenderit sunt.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 800,
+                    "height": 320
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=800&h=320&fit=crop",
+                  "mobile": {
+                    "dimensions": {
+                      "width": 352,
+                      "height": 141
+                    },
+                    "alt": "Placeholder image",
+                    "copyright": null,
+                    "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=352&h=141&fit=crop"
+                  }
+                },
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Excepteur sunt eu fugiat deserunt nulla quis. Proident exercitation incididunt est adipisicing elit reprehenderit enim veniam et amet dolore sint. Elit consequat officia proident ex proident laboris quis laborum reprehenderit consequat laboris amet eiusmod.",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Velit mollit enim elit fugiat dolore amet cillum est ut.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Enable revolutionary infrastructures",
+                  "text": "Generate mission-critical users",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Minim ut officia aute. Minim voluptate sit commodo in mollit esse minim et aliquip ullamco aute.",
+                  "text": "Incididunt aute pariatur consequat aute nulla laborum sint irure in occaecat adipisicing.",
                   "spans": []
-                },
+                }
+              ],
+              "subtitle": [
                 {
                   "type": "paragraph",
-                  "text": "Elit amet duis duis occaecat occaecat do nulla tempor ullamco nulla sit fugiat.",
+                  "text": "Aute ullamco non deserunt cillum proident velit officia quis proident. Exercitation cillum qui esse.",
                   "spans": []
                 }
               ]
@@ -77,9 +949,535 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/ProductFeaturesWithWideImages/default-slice/preview.png",
             "width": 800,
-            "height": 121
+            "height": 2829
+          }
+        }
+      },
+      "promo_section_fading_background_testimonials": {
+        "library": "slices",
+        "id": "promo_section_fading_background_testimonials",
+        "name": "PromoSectionFadingBackgroundTestimonials",
+        "description": "PromoSectionFadingBackgroundTestimonials",
+        "model": {
+          "id": "promo_section_fading_background_testimonials",
+          "type": "SharedSlice",
+          "name": "PromoSectionFadingBackgroundTestimonials",
+          "description": "PromoSectionFadingBackgroundTestimonials",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PromoSectionFadingBackgroundTestimonials",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "cta": {
+                  "config": {
+                    "label": "CTA",
+                    "placeholder": "Call to action label"
+                  },
+                  "type": "Text"
+                },
+                "link": {
+                  "config": {
+                    "label": "CTA Link",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                },
+                "quotesTitle": {
+                  "config": {
+                    "label": "Title of quotes section",
+                    "placeholder": "What are people saying?"
+                  },
+                  "type": "Text"
+                },
+                "image": {
+                  "config": {
+                    "label": "Background Image",
+                    "constraint": {
+                      "width": 1216,
+                      "height": 956
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {
+                "quote": {
+                  "config": {
+                    "label": "Quote Text",
+                    "placeholder": "This is the text of the quote"
+                  },
+                  "type": "Text"
+                },
+                "attribution": {
+                  "config": {
+                    "label": "Quote Author",
+                    "placeholder": "This is the author of the quote"
+                  },
+                  "type": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "promo_section_fading_background_testimonials",
+            "items": [
+              {
+                "quote": "incubate dot-com vortals",
+                "attribution": "visualize turn-key web services"
+              },
+              {
+                "quote": "optimize bleeding-edge web-readiness",
+                "attribution": "unleash open-source users"
+              },
+              {
+                "quote": "monetize leading-edge web-readiness",
+                "attribution": "embrace dynamic infomediaries"
+              },
+              {
+                "quote": "redefine e-business communities",
+                "attribution": "optimize vertical platforms"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Streamline bricks-and-clicks models",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Culpa ut amet quis eu velit sint cillum adipisicing fugiat officia sunt sint ea. Ullamco reprehenderit ipsum nostrud voluptate laboris.",
+                  "spans": []
+                }
+              ],
+              "cta": "e-enable end-to-end platforms",
+              "link": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              },
+              "quotesTitle": "engage frictionless metrics",
+              "image": {
+                "dimensions": {
+                  "width": 1216,
+                  "height": 956
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1216&h=956&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionFadingBackgroundTestimonials/default-slice/preview.png",
+            "width": 800,
+            "height": 1150
+          }
+        }
+      },
+      "promo_section_full_width_with_overlapping_image_tiles": {
+        "library": "slices",
+        "id": "promo_section_full_width_with_overlapping_image_tiles",
+        "name": "PromoSectionFullWidthWithOverlappingImageTiles",
+        "description": "PromoSectionFullWidthWithOverlappingImageTiles",
+        "model": {
+          "id": "promo_section_full_width_with_overlapping_image_tiles",
+          "type": "SharedSlice",
+          "name": "PromoSectionFullWidthWithOverlappingImageTiles",
+          "description": "PromoSectionFullWidthWithOverlappingImageTiles",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PromoSectionFullWidthWithOverlappingImageTiles",
+              "primary": {
+                "title1": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title first line",
+                    "placeholder": "This is where it all begins....",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "title2": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title second line",
+                    "placeholder": "Second line of the title...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "image1": {
+                  "config": {
+                    "label": "First Image",
+                    "constraint": {
+                      "width": 288,
+                      "height": 288
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "image2": {
+                  "config": {
+                    "label": "Second Image",
+                    "constraint": {
+                      "width": 288,
+                      "height": 288
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "image3": {
+                  "config": {
+                    "label": "Third Image",
+                    "constraint": {
+                      "width": 288,
+                      "height": 288
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "image4": {
+                  "config": {
+                    "label": "Fourth Image",
+                    "constraint": {
+                      "width": 288,
+                      "height": 288
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "image5": {
+                  "config": {
+                    "label": "Fifth Image",
+                    "constraint": {
+                      "width": 288,
+                      "height": 288
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "image6": {
+                  "config": {
+                    "label": "Sixth Image",
+                    "constraint": {
+                      "width": 288,
+                      "height": 288
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "ctaLink": {
+                  "config": {
+                    "label": "Call to action label",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "Call to Action Label",
+                    "placeholder": "Click here..."
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "promo_section_full_width_with_overlapping_image_tiles",
+            "items": [],
+            "primary": {
+              "title1": [
+                {
+                  "type": "heading1",
+                  "text": "Evolve user-centric e-business",
+                  "spans": []
+                }
+              ],
+              "title2": [
+                {
+                  "type": "heading1",
+                  "text": "Empower robust interfaces",
+                  "spans": []
+                }
+              ],
+              "image1": {
+                "dimensions": {
+                  "width": 288,
+                  "height": 288
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=288&h=288&fit=crop"
+              },
+              "image2": {
+                "dimensions": {
+                  "width": 288,
+                  "height": 288
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=288&h=288&fit=crop"
+              },
+              "image3": {
+                "dimensions": {
+                  "width": 288,
+                  "height": 288
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=288&h=288&fit=crop"
+              },
+              "image4": {
+                "dimensions": {
+                  "width": 288,
+                  "height": 288
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=288&h=288&fit=crop"
+              },
+              "image5": {
+                "dimensions": {
+                  "width": 288,
+                  "height": 288
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=288&h=288&fit=crop"
+              },
+              "image6": {
+                "dimensions": {
+                  "width": 288,
+                  "height": 288
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=288&h=288&fit=crop"
+              },
+              "ctaLink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "linkLabel": "architect integrated architectures"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionFullWidthWithOverlappingImageTiles/default-slice/preview.png",
+            "width": 800,
+            "height": 488
+          }
+        }
+      },
+      "promo_section_with_background_image": {
+        "library": "slices",
+        "id": "promo_section_with_background_image",
+        "name": "PromoSectionWithBackgroundImage",
+        "description": "PromoSectionWithBackgroundImage",
+        "model": {
+          "id": "promo_section_with_background_image",
+          "type": "SharedSlice",
+          "name": "PromoSectionWithBackgroundImage",
+          "description": "PromoSectionWithBackgroundImage",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PromoSectionWithBackgroundImage",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 1216,
+                      "height": 482
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "mobile",
+                        "width": 605,
+                        "height": 443
+                      }
+                    ]
+                  },
+                  "type": "Image"
+                },
+                "link": {
+                  "config": {
+                    "label": "Link",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": "This is the text of the button"
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "cameraInsurance",
+              "name": "Camera Insurance",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PromoSectionWithBackgroundImage",
+              "primary": {},
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "promo_section_with_background_image",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Integrate rich deliverables",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Sint ullamco nisi proident. Excepteur tempor quis excepteur excepteur dolore quis laboris do aute cupidatat tempor duis occaecat.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 1216,
+                  "height": 482
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=1216&h=482&fit=crop",
+                "mobile": {
+                  "dimensions": {
+                    "width": 605,
+                    "height": 443
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=605&h=443&fit=crop"
+                }
+              },
+              "link": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              },
+              "linkLabel": "syndicate next-generation networks"
+            }
+          },
+          "cameraInsurance": {
+            "variation": "cameraInsurance",
+            "name": "Camera Insurance",
+            "slice_type": "promo_section_with_background_image",
+            "items": [],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/default-slice/preview.png",
+            "width": 800,
+            "height": 702
+          },
+          "cameraInsurance": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/cameraInsurance/preview.png",
+            "width": 800,
+            "height": 674
           }
         }
       }

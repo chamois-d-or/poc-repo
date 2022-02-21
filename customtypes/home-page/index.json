@@ -12,6 +12,24 @@
           "choices": {
             "hero_banner": {
               "type": "SharedSlice"
+            },
+            "category_preview_with_image_backgrounds": {
+              "type": "SharedSlice"
+            },
+            "category_preview_with_scrolling_cards": {
+              "type": "SharedSlice"
+            },
+            "product_features_with_wide_images": {
+              "type": "SharedSlice"
+            },
+            "promo_section_fading_background_testimonials": {
+              "type": "SharedSlice"
+            },
+            "promo_section_full_width_with_overlapping_image_tiles": {
+              "type": "SharedSlice"
+            },
+            "promo_section_with_background_image": {
+              "type": "SharedSlice"
             }
           }
         }

@@ -1,39 +1,566 @@
 {
   "slices": {
-    "HeroBanner": {
-      "0": {
+    "HeroBanner": [
+      {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "hero_banner",
         "items": [],
         "primary": {
+          "title": "utilize scalable synergies",
+          "description": "exploit customized niches",
+          "image": {
+            "dimensions": {
+              "width": 1024,
+              "height": 325
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=1024&h=325&fit=crop",
+            "mobile": {
+              "dimensions": {
+                "width": 600,
+                "height": 410
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=600&h=410&fit=crop"
+            }
+          },
+          "cta": "drive bleeding-edge applications",
+          "CTALink": {
+            "link_type": "Web",
+            "url": "http://twitter.com"
+          }
+        }
+      },
+      {
+        "variation": "withoutCta",
+        "name": "Without CTA",
+        "slice_type": "hero_banner",
+        "items": [],
+        "primary": {
+          "title": "incubate front-end platforms",
+          "description": "engage one-to-one eyeballs",
+          "image": {
+            "dimensions": {
+              "width": 1024,
+              "height": 325
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=1024&h=325&fit=crop",
+            "mobile": {
+              "dimensions": {
+                "width": 600,
+                "height": 410
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=600&h=410&fit=crop"
+            }
+          }
+        }
+      }
+    ],
+    "CategoryPreviewWithImageBackgrounds": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "category_preview_with_image_backgrounds",
+        "items": [],
+        "primary": {
           "title": [
             {
               "type": "heading1",
-              "text": "Syndicate global communities",
+              "text": "Extend robust e-commerce",
+              "spans": []
+            }
+          ],
+          "linkLabel": "reinvent bleeding-edge channels",
+          "link": {
+            "link_type": "Web",
+            "url": "https://prismic.io"
+          },
+          "imageLeft": {
+            "dimensions": {
+              "width": 592,
+              "height": 592
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=592&h=592&fit=crop",
+            "mobile": {
+              "dimensions": {
+                "width": 560,
+                "height": 280
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=560&h=280&fit=crop"
+            }
+          },
+          "imageLeftTitle": "engineer extensible functionalities",
+          "imageLeftCta": "incentivize out-of-the-box architectures",
+          "leftImageLink": {
+            "link_type": "Web",
+            "url": "http://twitter.com"
+          },
+          "imageTopRight": {
+            "dimensions": {
+              "width": 592,
+              "height": 280
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=592&h=280&fit=crop"
+          },
+          "imageTopRightTitle": "iterate cross-platform portals",
+          "imageTopRightCta": "cultivate value-added eyeballs",
+          "topRightImageLink": {
+            "link_type": "Web",
+            "url": "http://google.com"
+          },
+          "imageBottomRight": {
+            "dimensions": {
+              "width": 592,
+              "height": 280
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=592&h=280&fit=crop"
+          },
+          "imageBottomRightTitle": "strategize revolutionary methodologies",
+          "imageBottomRightCta": "matrix sexy infomediaries",
+          "bottomRightImageLink": {
+            "link_type": "Web",
+            "url": "http://twitter.com"
+          }
+        }
+      }
+    ],
+    "CategoryPreviewWithScrollingCards": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "category_preview_with_scrolling_cards",
+        "items": [
+          {
+            "image": {
+              "dimensions": {
+                "width": 224,
+                "height": 320
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=224&h=320&fit=crop"
+            },
+            "title": "drive open-source bandwidth",
+            "link": {
+              "link_type": "Web",
+              "url": "http://google.com"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 224,
+                "height": 320
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=224&h=320&fit=crop"
+            },
+            "title": "innovate rich portals",
+            "link": {
+              "link_type": "Web",
+              "url": "https://prismic.io"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 224,
+                "height": 320
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=224&h=320&fit=crop"
+            },
+            "title": "incubate mission-critical action-items",
+            "link": {
+              "link_type": "Web",
+              "url": "https://slicemachine.dev"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 224,
+                "height": 320
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=224&h=320&fit=crop"
+            },
+            "title": "aggregate enterprise solutions",
+            "link": {
+              "link_type": "Web",
+              "url": "http://twitter.com"
+            }
+          }
+        ],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Empower end-to-end relationships",
+              "spans": []
+            }
+          ],
+          "CTA": "syndicate open-source metrics",
+          "CTALink": {
+            "link_type": "Web",
+            "url": "https://prismic.io"
+          }
+        }
+      }
+    ],
+    "ProductFeaturesWithWideImages": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "product_features_with_wide_images",
+        "items": [
+          {
+            "image": {
+              "dimensions": {
+                "width": 800,
+                "height": 320
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=800&h=320&fit=crop",
+              "mobile": {
+                "dimensions": {
+                  "width": 352,
+                  "height": 141
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=352&h=141&fit=crop"
+              }
+            },
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Aliqua exercitation nulla dolor tempor minim cupidatat labore esse velit. Irure cupidatat elit est anim commodo aute duis amet aute ut nostrud cillum. Elit dolor pariatur deserunt qui elit ad commodo nostrud laborum excepteur ullamco deserunt.",
+                "spans": []
+              }
+            ],
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Mollit sint laborum excepteur. Dolor dolor ullamco eiusmod incididunt laboris laborum consectetur fugiat nisi ex anim id culpa labore.",
+                "spans": []
+              }
+            ]
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 800,
+                "height": 320
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=800&h=320&fit=crop",
+              "mobile": {
+                "dimensions": {
+                  "width": 352,
+                  "height": 141
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=352&h=141&fit=crop"
+              }
+            },
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Cupidatat proident eiusmod minim magna cillum eu officia fugiat labore laborum sit ullamco id. Ea veniam non sunt.",
+                "spans": []
+              }
+            ],
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Amet enim anim duis magna laboris incididunt nulla nostrud dolore irure minim labore laboris ad aliquip. Magna enim mollit quis dolor est pariatur aliquip est elit. Elit sunt officia incididunt velit non occaecat irure aliquip incididunt et Lorem mollit proident consectetur.",
+                "spans": []
+              }
+            ]
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 800,
+                "height": 320
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=800&h=320&fit=crop",
+              "mobile": {
+                "dimensions": {
+                  "width": 352,
+                  "height": 141
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=352&h=141&fit=crop"
+              }
+            },
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Aliqua et Lorem cillum cillum cillum ullamco laborum Lorem ad excepteur exercitation duis. Enim mollit reprehenderit culpa laboris nostrud sunt eu id cupidatat. Laboris eu eiusmod irure laboris.",
+                "spans": []
+              }
+            ],
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Et fugiat velit enim id veniam sint laboris ullamco incididunt occaecat est dolore. Veniam non nostrud velit ipsum pariatur ad aute consectetur.",
+                "spans": []
+              }
+            ]
+          }
+        ],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Benchmark one-to-one e-tailers",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Dolor ex excepteur nostrud ad officia amet nulla sint qui nostrud.",
+              "text": "Mollit elit eiusmod cupidatat dolore Lorem voluptate elit elit ut.",
+              "spans": []
+            }
+          ],
+          "subtitle": [
+            {
+              "type": "paragraph",
+              "text": "Sit sit eiusmod consectetur mollit do ullamco labore. Veniam officia nulla do commodo commodo aute sint Lorem est. In occaecat deserunt qui reprehenderit ullamco Lorem magna.",
               "spans": []
             }
           ]
         }
-      },
-      "default-slice": {
+      }
+    ],
+    "PromoSectionFadingBackgroundTestimonials": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "promo_section_fading_background_testimonials",
+        "items": [
+          {
+            "quote": "visualize enterprise platforms",
+            "attribution": "innovate B2B communities"
+          },
+          {
+            "quote": "matrix virtual supply-chains",
+            "attribution": "transform compelling metrics"
+          },
+          {
+            "quote": "generate visionary methodologies",
+            "attribution": "grow e-business interfaces"
+          },
+          {
+            "quote": "grow e-business mindshare",
+            "attribution": "redefine impactful deliverables"
+          },
+          {
+            "quote": "unleash rich infomediaries",
+            "attribution": "extend global experiences"
+          },
+          {
+            "quote": "enable turn-key markets",
+            "attribution": "whiteboard dot-com markets"
+          }
+        ],
         "primary": {
-          "description": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 2
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Empower enterprise schemas",
+              "spans": []
             }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Exercitation non eu nulla est aliqua velit consequat deserunt deserunt dolor quis ex proident velit enim.",
+              "spans": []
+            }
+          ],
+          "cta": "aggregate innovative systems",
+          "link": {
+            "link_type": "Web",
+            "url": "https://slicemachine.dev"
+          },
+          "quotesTitle": "reinvent turn-key supply-chains",
+          "image": {
+            "dimensions": {
+              "width": 1216,
+              "height": 956
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=1216&h=956&fit=crop"
           }
         }
       }
-    }
+    ],
+    "PromoSectionFullWidthWithOverlappingImageTiles": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "promo_section_full_width_with_overlapping_image_tiles",
+        "items": [],
+        "primary": {
+          "title1": [
+            {
+              "type": "heading1",
+              "text": "Utilize plug-and-play eyeballs",
+              "spans": []
+            }
+          ],
+          "title2": [
+            {
+              "type": "heading1",
+              "text": "Aggregate revolutionary e-services",
+              "spans": []
+            }
+          ],
+          "image1": {
+            "dimensions": {
+              "width": 288,
+              "height": 288
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=288&h=288&fit=crop"
+          },
+          "image2": {
+            "dimensions": {
+              "width": 288,
+              "height": 288
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=288&h=288&fit=crop"
+          },
+          "image3": {
+            "dimensions": {
+              "width": 288,
+              "height": 288
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=288&h=288&fit=crop"
+          },
+          "image4": {
+            "dimensions": {
+              "width": 288,
+              "height": 288
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=288&h=288&fit=crop"
+          },
+          "image5": {
+            "dimensions": {
+              "width": 288,
+              "height": 288
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=288&h=288&fit=crop"
+          },
+          "image6": {
+            "dimensions": {
+              "width": 288,
+              "height": 288
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=288&h=288&fit=crop"
+          },
+          "ctaLink": {
+            "link_type": "Web",
+            "url": "http://twitter.com"
+          },
+          "linkLabel": "aggregate web-enabled interfaces"
+        }
+      }
+    ],
+    "PromoSectionWithBackgroundImage": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "promo_section_with_background_image",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Whiteboard value-added supply-chains",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "In nostrud veniam sint incididunt in anim. Mollit ea magna veniam do nostrud elit aliqua dolor occaecat irure enim sit ut. Aute laboris incididunt qui minim laboris ullamco nostrud est ut cillum non nisi.",
+              "spans": []
+            }
+          ],
+          "image": {
+            "dimensions": {
+              "width": 1216,
+              "height": 482
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1216&h=482&fit=crop",
+            "mobile": {
+              "dimensions": {
+                "width": 605,
+                "height": 443
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=605&h=443&fit=crop"
+            }
+          },
+          "link": {
+            "link_type": "Web",
+            "url": "http://google.com"
+          },
+          "linkLabel": "architect impactful communities"
+        }
+      },
+      {
+        "variation": "cameraInsurance",
+        "name": "Camera Insurance",
+        "slice_type": "promo_section_with_background_image",
+        "items": [],
+        "primary": {}
+      }
+    ]
   },
   "_cts": {
     "home-page": {},
