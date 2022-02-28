@@ -1,0 +1,1 @@
+{"Main":{"logo":{"config":{"label":"Logo","constraint":{"width":64,"height":64},"thumbnails":[]},"type":"Image"},"menuTabs":{"config":{"label":"MenuTabs","fields":{"menuTab":{"config":{"label":"menuTab","customtypes":["menuTab"],"select":"document"},"type":"Link"}}},"type":"Group"}}}
