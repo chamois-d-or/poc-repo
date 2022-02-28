@@ -1,0 +1,42 @@
+{
+  "id": "bd09ca61-2fb3-44d8-ac03-6bf22a51af16",
+  "uid": "nemo-et-aut",
+  "type": "menu",
+  "data": {
+    "logo": {
+      "dimensions": {
+        "width": 64,
+        "height": 64
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=64&h=64&fit=crop"
+    },
+    "menuTabs": [
+      {
+        "menuTab": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "menuTab": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "menuTab": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "menuTab": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ]
+  }
+}

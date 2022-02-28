@@ -3,6 +3,7 @@
 export { default as CategoryPreviewWithImageBackgrounds } from './CategoryPreviewWithImageBackgrounds'
 export { default as CategoryPreviewWithScrollingCards } from './CategoryPreviewWithScrollingCards'
 export { default as HeroBanner } from './HeroBanner'
+export { default as MenuSubTab } from './MenuSubTab'
 export { default as ProductFeaturesWithWideImages } from './ProductFeaturesWithWideImages'
 export { default as PromoSectionFadingBackgroundTestimonials } from './PromoSectionFadingBackgroundTestimonials'
 export { default as PromoSectionFullWidthWithOverlappingImageTiles } from './PromoSectionFullWidthWithOverlappingImageTiles'

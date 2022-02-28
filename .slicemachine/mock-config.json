@@ -560,10 +560,37 @@
         "items": [],
         "primary": {}
       }
-    ]
+    ],
+    "MenuSubTab": {
+      "0": {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "menu_sub_tab",
+        "items": [
+          {
+            "subSectionTitle": "benchmark seamless deliverables"
+          },
+          {
+            "subSectionTitle": "unleash revolutionary paradigms"
+          }
+        ],
+        "primary": {
+          "sectionTitle": "enable world-class partnerships"
+        }
+      },
+      "default-slice": {
+        "items": {}
+      }
+    }
   },
   "_cts": {
     "home-page": {},
-    "page": {}
+    "page": {},
+    "menu": {
+      "menuLinks": {},
+      "menuTabs": {}
+    },
+    "category": {},
+    "menuTab": {}
   }
 }

@@ -1,4 +1,4 @@
-// components/loader.js
+// components/Loader.js
 import React from 'react'
 
 /**

@@ -654,6 +654,98 @@
           }
         }
       },
+      "menu_sub_tab": {
+        "library": "slices",
+        "id": "menu_sub_tab",
+        "name": "MenuSubTab",
+        "description": "MenuSubTab",
+        "model": {
+          "id": "menu_sub_tab",
+          "type": "SharedSlice",
+          "name": "MenuSubTab",
+          "description": "MenuSubTab",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MenuSubTab",
+              "primary": {
+                "sectionTitle": {
+                  "config": {
+                    "label": "Section Title",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {
+                "subSectionTitle": {
+                  "config": {
+                    "label": "Sub Section Title",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "subSectionLink": {
+                  "config": {
+                    "label": "Sub Section Link",
+                    "customtypes": [],
+                    "select": "document"
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "menu_sub_tab",
+            "items": [
+              {
+                "subSectionTitle": "architect transparent e-markets",
+                "subSectionLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "subSectionTitle": "mesh B2B e-business",
+                "subSectionLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "subSectionTitle": "synergize strategic methodologies",
+                "subSectionLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              }
+            ],
+            "primary": {
+              "sectionTitle": "exploit scalable channels"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/slices/MenuSubTab/default-slice/preview.png",
+            "width": 358,
+            "height": 372
+          }
+        }
+      },
       "product_features_with_wide_images": {
         "library": "slices",
         "id": "product_features_with_wide_images",
