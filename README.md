@@ -45,6 +45,7 @@ https://prismic.io/docs/technologies/create-and-model-a-component-nextjs
 
 ## Disclaimer
 This project is made to test out Prismic, Slices used in this project are subject to Tailwind UI license : https://tailwindui.com/license
+Images used in this project are from unsplash.com, please find unsplash license here : https://unsplash.com/license
 
 -------
 
