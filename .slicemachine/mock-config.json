@@ -561,14 +561,7 @@
         "primary": {}
       },
       "default-slice": {
-        "primary": {
-          "testField": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        }
+        "primary": {}
       }
     },
     "MenuSubTab": {
