@@ -507,8 +507,8 @@
         }
       }
     ],
-    "PromoSectionWithBackgroundImage": [
-      {
+    "PromoSectionWithBackgroundImage": {
+      "0": {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "promo_section_with_background_image",
@@ -553,14 +553,24 @@
           "linkLabel": "architect impactful communities"
         }
       },
-      {
+      "1": {
         "variation": "cameraInsurance",
         "name": "Camera Insurance",
         "slice_type": "promo_section_with_background_image",
         "items": [],
         "primary": {}
+      },
+      "default-slice": {
+        "primary": {
+          "testField": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
-    ],
+    },
     "MenuSubTab": {
       "0": {
         "variation": "default-slice",

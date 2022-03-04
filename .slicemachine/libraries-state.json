@@ -236,7 +236,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/CategoryPreviewWithImageBackgrounds/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/CategoryPreviewWithImageBackgrounds/default-slice/preview.png",
             "width": 800,
             "height": 612
           }
@@ -457,7 +457,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/CategoryPreviewWithScrollingCards/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/CategoryPreviewWithScrollingCards/default-slice/preview.png",
             "width": 800,
             "height": 560
           }
@@ -643,12 +643,12 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/HeroBanner/default-slice/preview.png",
             "width": 800,
             "height": 482
           },
           "withoutCta": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/withoutCta/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/HeroBanner/withoutCta/preview.png",
             "width": 800,
             "height": 400
           }
@@ -740,7 +740,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/slices/MenuSubTab/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/slices/MenuSubTab/default-slice/preview.png",
             "width": 358,
             "height": 372
           }
@@ -1041,7 +1041,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/ProductFeaturesWithWideImages/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/ProductFeaturesWithWideImages/default-slice/preview.png",
             "width": 800,
             "height": 2829
           }
@@ -1197,7 +1197,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionFadingBackgroundTestimonials/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/PromoSectionFadingBackgroundTestimonials/default-slice/preview.png",
             "width": 800,
             "height": 1150
           }
@@ -1415,7 +1415,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionFullWidthWithOverlappingImageTiles/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/PromoSectionFullWidthWithOverlappingImageTiles/default-slice/preview.png",
             "width": 800,
             "height": 488
           }
@@ -1486,6 +1486,15 @@
                     "placeholder": "This is the text of the button"
                   },
                   "type": "Text"
+                },
+                "testField": {
+                  "config": {
+                    "label": "Test Field",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
                 }
               },
               "items": {}
@@ -1511,14 +1520,14 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Integrate rich deliverables",
+                  "text": "Reinvent customized e-commerce",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Sint ullamco nisi proident. Excepteur tempor quis excepteur excepteur dolore quis laboris do aute cupidatat tempor duis occaecat.",
+                  "text": "Occaecat Lorem qui esse veniam sit.",
                   "spans": []
                 }
               ],
@@ -1529,7 +1538,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=1216&h=482&fit=crop",
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1216&h=482&fit=crop",
                 "mobile": {
                   "dimensions": {
                     "width": 605,
@@ -1537,14 +1546,21 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=605&h=443&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=605&h=443&fit=crop"
                 }
               },
               "link": {
                 "link_type": "Web",
-                "url": "https://prismic.io"
+                "url": "http://google.com"
               },
-              "linkLabel": "syndicate next-generation networks"
+              "linkLabel": "evolve cross-platform functionalities",
+              "testField": [
+                {
+                  "type": "paragraph",
+                  "text": "Commodo ipsum id pariatur sit proident excepteur ad ad nostrud proident ex tempor nisi anim.",
+                  "spans": []
+                }
+              ]
             }
           },
           "cameraInsurance": {
@@ -1560,18 +1576,7 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {
-          "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/default-slice/preview.png",
-            "width": 800,
-            "height": 702
-          },
-          "cameraInsurance": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/cameraInsurance/preview.png",
-            "width": 800,
-            "height": 674
-          }
-        }
+        "screenshotPaths": {}
       }
     }
   }

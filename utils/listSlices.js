@@ -42,6 +42,8 @@ async function pushSlices() {
     console.log("slice in the github code")
     slicesJsons.forEach(function(slice,index){
         const sliceObject = JSON.parse(fs.readFileSync(slicesJsons[index], 'utf8'));
+        sliceObject.imageUrl = "https://raw.githubusercontent.com/chamois-d-or/poc-repo/github-action/.slicemachine/assets/slices/CategoryPreviewWithImageBackgrounds/default-slice/preview.png"
+        console.log(sliceObject)
         pushSlice(sliceObject)
     })
 }
