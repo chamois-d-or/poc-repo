@@ -4,13 +4,19 @@ import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 import { Fragment, useState } from 'react'
+import { useRouter } from 'next/router'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
 
-const Header = ({ menuTabs = [] , logo = null }) => {
+const Header = ({ menuTabs = [] , logo = null, currentLocale = 'en-us', locales = ['en-us'] }) => {
     const [open, setOpen] = useState(false)
+    const router = useRouter()
+    const { pathname, asPath, query } = router
+    function handleChange(e) {
+        router.push({ pathname, query }, asPath, { locale: e.target.value })
+    }
     return (
         <section className="bg-white">
              {/* Mobile menu */}
@@ -114,7 +120,7 @@ const Header = ({ menuTabs = [] , logo = null }) => {
 
                     {/* Logo */}
                     <div className="ml-4 flex lg:ml-0">
-                        <a href={"/"}>
+                        <a href={"/"+currentLocale}>
                         <span className="sr-only">Workflow</span>
                         <img
                             className="h-8 w-auto"
@@ -140,7 +146,7 @@ const Header = ({ menuTabs = [] , logo = null }) => {
                                         'relative z-10 flex items-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px'
                                     )}
                                     >
-                                    {menuTab.title}
+                                    {menuTab?.title}
                                     </Popover.Button>
                                 </div>
 
@@ -193,6 +199,27 @@ const Header = ({ menuTabs = [] , logo = null }) => {
                         ))}
                         </div>
                     </Popover.Group>
+                    <div className="ml-auto flex items-center">
+                        <div className="hidden lg:ml-8 lg:flex">
+                        <a className="text-gray-700 hover:text-gray-800 flex items-center">
+                            <select
+                            id="location"
+                            name="location"
+                            className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                            onChange={handleChange}
+                            value={currentLocale}
+                            >
+                            {locales?.map((locale) => {
+                                return(
+                                <option key={locale}>
+                                    {locale}
+                                </option>
+                                )}
+                            )}
+                            </select>
+                        </a>
+                        </div>
+                    </div>
                     </div>
                 </div>
                 </nav>

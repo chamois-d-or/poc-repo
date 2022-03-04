@@ -21,7 +21,7 @@ import { menuGraphQuery } from '../utils/graphQueries'
 import * as Slices from '../slices'
 const resolver = ({ sliceName }) => Slices[sliceName];
 
-export default function Home({ previewRef, id, slices, menuTabs, logo }) {
+export default function Home({ previewRef, id, slices, menuTabs, logo, currentLocale, locales }) {
 
   useUpdatePreviewRef(previewRef, id)
 
@@ -30,16 +30,16 @@ export default function Home({ previewRef, id, slices, menuTabs, logo }) {
       <Head>
         <title>Prismic PoC</title>
       </Head>
-      <Header menuTabs={menuTabs} logo={logo} />
+      <Header menuTabs={menuTabs} logo={logo} locales={locales} currentLocale={currentLocale}/>
       <SliceZone slices={slices} resolver={resolver}/>
     </div>
   )
 }
 
-export async function getStaticProps({ previewData }) {
+export async function getStaticProps({ previewData, locale, locales }) {
   //Setting Repository Master Reference ID depending on preview data
   const previewRef = previewData ? previewData.ref : null
-  const refOption = previewRef ? { ref: previewRef } : null
+  const refOption = previewRef ? { lang: locale, ref: previewRef  } : { lang: locale }
 
   //Querying home page document
   const document = await Client().getSingle('home-page', refOption)
@@ -52,7 +52,7 @@ export async function getStaticProps({ previewData }) {
   }
 
   //Querying the Menu here so that it can be previewed at the same time as the page (in a release)
-  const refOptionMenu = previewRef ? { ref: previewRef, 'graphQuery': menuGraphQuery } : {'graphQuery': menuGraphQuery }
+  const refOptionMenu = previewRef ? { ref: previewRef, lang: locale, 'graphQuery': menuGraphQuery } : {lang: locale, 'graphQuery': menuGraphQuery }
   const menu = (await Client().getSingle("menu", refOptionMenu)) || {};
   
   return {
@@ -62,6 +62,8 @@ export async function getStaticProps({ previewData }) {
       slices : document?.data?.slices || [],
       menuTabs: menu?.data?.menuTabs?.map((menuTab)=> menuTab.menuTab?.data || null) || [],
       logo: menu?.data?.logo || null,
+      currentLocale: locale,
+      locales: locales
     },
   }
 }

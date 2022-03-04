@@ -6,7 +6,7 @@ import { repoName } from '../prismicConfiguration'
 
 function getExitPreviewRoute(router) {
   const defaultPreviewExitUrl = '/api/exit-preview'
-  const linkUrl = router.asPath ? `${defaultPreviewExitUrl}?currentUrl=${router.asPath}` : defaultPreviewExitUrl
+  const linkUrl = router.asPath ? `${defaultPreviewExitUrl}?currentUrl=/${router.locale}${router.asPath}` : defaultPreviewExitUrl
   return linkUrl
 }
 
@@ -36,7 +36,7 @@ export default function useUpdatePreviewRef(previewRef, documentId) {
             return router.push(`/api/preview?token=${previewCookieRef}&documentId=${documentId}`)
           }
         } else {
-          return router.push(previewExitRoute)
+          return router.push(previewExitRoute, previewExitRoute, { locale: false })
         }
       } else if (rawPreviewCookie && previewCookieRef) {
         return router.push(`/api/preview?token=${previewCookieRef}&documentId=${documentId}`)

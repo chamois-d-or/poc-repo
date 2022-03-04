@@ -16,11 +16,15 @@ export const routeResolver = {
   routes: [
     {
       "type":"home-page",
-      "path":"/"
+      "path":"/:lang"
     },
     {
       "type":"page",
-      "path":"/:uid"
+      "path":"/:lang/:uid"
     },
+    {
+      "type":"menu",
+      "path":"/:lang"
+    }
   ]
 };
