@@ -236,7 +236,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/CategoryPreviewWithImageBackgrounds/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/CategoryPreviewWithImageBackgrounds/default-slice/preview.png",
             "width": 800,
             "height": 612
           }
@@ -457,7 +457,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/CategoryPreviewWithScrollingCards/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/CategoryPreviewWithScrollingCards/default-slice/preview.png",
             "width": 800,
             "height": 560
           }
@@ -643,12 +643,12 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/HeroBanner/default-slice/preview.png",
             "width": 800,
             "height": 482
           },
           "withoutCta": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/HeroBanner/withoutCta/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/HeroBanner/withoutCta/preview.png",
             "width": 800,
             "height": 400
           }
@@ -740,7 +740,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/slices/MenuSubTab/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/slices/MenuSubTab/default-slice/preview.png",
             "width": 358,
             "height": 372
           }
@@ -1041,7 +1041,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/ProductFeaturesWithWideImages/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/ProductFeaturesWithWideImages/default-slice/preview.png",
             "width": 800,
             "height": 2829
           }
@@ -1197,7 +1197,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionFadingBackgroundTestimonials/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/PromoSectionFadingBackgroundTestimonials/default-slice/preview.png",
             "width": 800,
             "height": 1150
           }
@@ -1415,7 +1415,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionFullWidthWithOverlappingImageTiles/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/PromoSectionFullWidthWithOverlappingImageTiles/default-slice/preview.png",
             "width": 800,
             "height": 488
           }
@@ -1562,12 +1562,12 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/default-slice/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/default-slice/preview.png",
             "width": 800,
             "height": 702
           },
           "cameraInsurance": {
-            "path": "/Users/alexandrec/Documents/PoC/temp until sm updated/poc_temp/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/cameraInsurance/preview.png",
+            "path": "/Users/alexandrec/Documents/PoC/Tests/poc-repo/.slicemachine/assets/slices/PromoSectionWithBackgroundImage/cameraInsurance/preview.png",
             "width": 800,
             "height": 674
           }
